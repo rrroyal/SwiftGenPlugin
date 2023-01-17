@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-	name: "SwiftGen",
+	name: "SwiftGenPlugin",
 	products: [
 		.plugin(name: "SwiftGen", targets: ["SwiftGen"])
 	],
@@ -16,7 +16,7 @@ let package = Package(
 			dependencies: ["swiftgen"]),
 		.binaryTarget(
 			name: "swiftgen",
-			url: "https://github.com/nicorichard/SwiftGen/releases/download/6.5.1/swiftgen.artifactbundle.zip",
-			checksum: "a8e445b41ac0fd81459e07657ee19445ff6cbeef64eb0b3df51637b85f925da8")
+			url: "https://github.com/SwiftGen/SwiftGen/releases/download/6.6.2/swiftgen-6.6.2.artifactbundle.zip",
+			checksum: "7586363e24edcf18c2da3ef90f379e9559c1453f48ef5e8fbc0b818fbbc3a045")
 	]
 )
